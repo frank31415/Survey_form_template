@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Survey</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 id="title">Survey</h1>
+  <p id="description">Survey template: Fill out this survey</p>
+</body>
+<form id="survey-form">
+  <div>
+    <label id='name-label'>Name (required):</label>
+    <input id='name' type="text" required placeholder="i.e. Joe" />
+    <label id='email-label'>Email (required):</label>
+    <input id='email' type="email" required placeholder="123@email.com" />
+    <label id='number-label'>Age (required):</label>
+    <input id='number' type="number" required min=13 max=99 placeholder="1" />
+  </div>
+  <label id='dropdown-label'>Main arm:</label>
+  <select id="dropdown">
+    <option>select one</option>
+    <option>Left</option>
+    <option>Right</option>
+  </select>
+  
+  <h5 id='number-label'>Highest education:</h5>
+  <fieldset class="radio">
+    <label><input type="radio" name="title" class="inline" value=10 />High school</label>
+    <label><input type="radio" name="title" value=11 />Bachelor degree</label>
+    <label><input type="radio" name="title" value=12 />Master degree</label>
+    <label><input type="radio" name="title" value=13 />Doctorate</label>
+  </fieldset>
+
+  <label>Write something:
+          <textarea name="bio" rows="3" cols="30" placeholder="Write a comment."></textarea>
+  </label>
+
+<h5 id='number-label'>Which browser do you use:</h5>
+<fieldset>
+  <label><input type="checkbox" name="title" value=0 />Google Chrome</label>
+  <label><input type="checkbox" name="title" value=1 />Mozilla Firefox</label>
+  <label><input type="checkbox" name="title" value=2 />Microsoft Edge</label>
+  <label><input type="checkbox" name="title" value=3 />Safari</label>
+<label><input type="checkbox" name="title" value=4 />Other</label> 
+</fieldset>
+
+  <input type="submit" value="Submit" id="submit" />
+</form>
+
+<footer>
+	<p>made by Frank Schindler, 24.7.2022</p>
+</footer>
+
+</html>

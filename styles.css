@@ -1,0 +1,157 @@
+h1, p {
+  font-family: sans-serif;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  text-align: center;
+}
+
+input[type="text"] {
+  display: block;
+  width: 95%;
+  margin: 1em auto;
+  height: 2em;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+  max-width: 500px;
+  color: #f5f6f7;
+  font-family: Tahoma;
+	font-size: 16px;
+  font-weight:normal;
+}
+
+input[type="email"] {
+  display: block;
+  width: 95%;
+  margin: 1em auto;
+  height: 2em;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+  max-width: 500px;
+  color: #f5f6f7;
+  font-family: Tahoma;
+	font-size: 16px;
+  font-weight:normal;
+}
+
+input[type="number"] {
+  display: block;
+  width: 95%;
+  margin: 1em auto;
+  height: 2em;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+  max-width: 500px;
+  color: #f5f6f7;
+  font-family: Tahoma;
+	font-size: 16px;
+  font-weight:normal;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 95%;
+  margin: 1em auto;
+  height: 2em;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+  max-width: 500px;
+  color: #f5f6f7;
+  font-family: Tahoma;
+	font-size: 16px;
+  font-weight:normal;
+}
+
+input[type="submit"]:hovered {
+  display: block;
+  width: 95%;
+  margin: 1em auto;
+  margin-bottom: 3em;
+  height: 2em;
+  background-color: rgb(65,127, 0);
+  border-color: white;
+  min-width: 300px;
+  max-width: 500px;
+  color: #f5f6f7;
+  font-family: Tahoma;
+	font-size: 16px;
+  font-weight:normal;
+}
+
+select {
+  display: block;
+  width: 95%;
+  margin: 1em auto;
+  height: 2em;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+  max-width: 500px;
+  color: #f5f6f7;
+  font-family: Tahoma;
+	font-size: 16px;
+  font-weight:normal;
+}
+
+label {
+  display: block;
+	margin: 0.5rem 0;
+}
+
+h5 {
+  margin-bottom: 0px;
+  color: #f5f6f7;
+  font-family: Tahoma;
+	font-size: 16px;
+  font-weight:normal;
+}
+
+textarea {
+  display: block;
+  width: 95%;
+  margin: 1em auto;
+  height: 8em;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+  max-width: 500px;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+  font-weight:normal;
+}
+
+fieldset {
+  border: none;
+  padding: 1rem 0;
+  margin-top: 0 auto;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  margin-bottom: 40px;
+  background-color: #1b1b32;
+	color: #f5f6f7;
+  font-family: Tahoma;
+	font-size: 16px;
+}
+
+form {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+footer {
+	margin-bottom: 5em;
+	margin-left: 0 auto;
+	margin-top: 0 auto;
+	padding: 20px;
+}
